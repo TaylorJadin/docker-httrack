@@ -6,5 +6,5 @@ This is going to be part of a site archiving toolkit so it typically won't be ru
 
 ```bash
 URL=https://site.com
-docker run -it --rm -v `pwd`:/data taylorjadin/httrack bash -c "httrack -n --robots=0 $URL"
+docker run -it --rm -v `pwd`:/data taylorjadin/httrack bash -c "httrack --robots=0 $URL"
 ```
