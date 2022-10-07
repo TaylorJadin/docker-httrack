@@ -1,5 +1,5 @@
 FROM debian
 ARG URL
-RUN mkdir /mirrored-sites
-WORKDIR /mirrored-sites
+RUN mkdir /data
+WORKDIR /data
 RUN apt update && apt install httrack -y
